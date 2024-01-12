@@ -5,3 +5,6 @@ fun main() {
     println("Item B is sold at ${auctionPrice(null, 3000)}.")
 }
 
+class Bid(val amount: Int, val bidder: String)
+ 
+
