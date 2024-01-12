@@ -7,4 +7,8 @@ fun main() {
 
 class Bid(val amount: Int, val bidder: String)
  
-
+fun auctionPrice(bid: Bid?, minimumPrice: Int): Int {
+   // Fill in the code.
+   if (bid != null && bid.amount > minimumPrice) return bid.amount
+   return minimumPrice
+}
